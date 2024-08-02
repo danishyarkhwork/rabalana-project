@@ -30,7 +30,7 @@ const Footer = () => {
                   <div className="lg:col-span-4 md:col-span-12">
                     <Link href="#" passHref>
                       <Image
-                        src="/assets/images/logo-light.png"
+                        src="/assets/images/logo-dark.png"
                         alt="Logo"
                         className="text-[22px] focus:outline-none"
                         width={200}
@@ -44,38 +44,8 @@ const Footer = () => {
                     </p>
                     <ul className="list-none mt-6">
                       <li className="inline">
-                        <Link href="https://1.envato.market/techwind" passHref>
-                          <div className="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600">
-                            <i
-                              className="uil uil-shopping-cart align-middle"
-                              title="Buy Now"
-                            ></i>
-                          </div>
-                        </Link>
-                      </li>
-                      <li className="inline">
-                        <Link href="https://dribbble.com/shreethemes" passHref>
-                          <div className="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600">
-                            <i
-                              className="uil uil-dribbble align-middle"
-                              title="dribbble"
-                            ></i>
-                          </div>
-                        </Link>
-                      </li>
-                      <li className="inline">
                         <Link
-                          href="https://www.behance.net/shreethemes"
-                          passHref
-                        >
-                          <div className="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600">
-                            <i className="uil uil-behance" title="Behance"></i>
-                          </div>
-                        </Link>
-                      </li>
-                      <li className="inline">
-                        <Link
-                          href="http://linkedin.com/company/shreethemes"
+                          href="http://linkedin.com/company/rabalan"
                           passHref
                         >
                           <div className="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600">
@@ -87,10 +57,7 @@ const Footer = () => {
                         </Link>
                       </li>
                       <li className="inline">
-                        <Link
-                          href="https://www.facebook.com/shreethemes"
-                          passHref
-                        >
+                        <Link href="https://www.facebook.com/rabalan" passHref>
                           <div className="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600">
                             <i
                               className="uil uil-facebook-f align-middle"
@@ -101,7 +68,7 @@ const Footer = () => {
                       </li>
                       <li className="inline">
                         <Link
-                          href="https://www.instagram.com/shreethemes/"
+                          href="https://www.instagram.com/rabalan/"
                           passHref
                         >
                           <div className="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600">
@@ -113,7 +80,7 @@ const Footer = () => {
                         </Link>
                       </li>
                       <li className="inline">
-                        <Link href="https://twitter.com/shreethemes" passHref>
+                        <Link href="https://twitter.com/rabalan" passHref>
                           <div className="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600">
                             <i
                               className="uil uil-twitter align-middle"
@@ -123,24 +90,11 @@ const Footer = () => {
                         </Link>
                       </li>
                       <li className="inline">
-                        <Link href="mailto:support@shreethemes.in" passHref>
+                        <Link href="mailto:support@rabalan.com" passHref>
                           <div className="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600">
                             <i
                               className="uil uil-envelope align-middle"
                               title="email"
-                            ></i>
-                          </div>
-                        </Link>
-                      </li>
-                      <li className="inline">
-                        <Link
-                          href="https://forms.gle/QkTueCikDGqJnbky9"
-                          passHref
-                        >
-                          <div className="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600">
-                            <i
-                              className="uil uil-file align-middle"
-                              title="customization"
                             ></i>
                           </div>
                         </Link>
@@ -159,23 +113,8 @@ const Footer = () => {
                         </Link>
                       </li>
                       <li className="mt-[10px]">
-                        <Link href="/page-services.html" passHref>
-                          Services
-                        </Link>
-                      </li>
-                      <li className="mt-[10px]">
-                        <Link href="/page-team.html" passHref>
-                          Team
-                        </Link>
-                      </li>
-                      <li className="mt-[10px]">
                         <Link href="/page-pricing.html" passHref>
                           Pricing
-                        </Link>
-                      </li>
-                      <li className="mt-[10px]">
-                        <Link href="/portfolio-creative-four.html" passHref>
-                          Project
                         </Link>
                       </li>
                       <li className="mt-[10px]">
@@ -226,7 +165,7 @@ const Footer = () => {
                     <ul className="list-none footer-list mt-6">
                       <li>
                         <Link href="mailto:support@shreethemes.in" passHref>
-                          support@shreethemes.in
+                          support@rabalan.com
                         </Link>
                       </li>
                       <li className="mt-[10px]">
