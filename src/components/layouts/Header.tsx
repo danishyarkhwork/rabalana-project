@@ -595,17 +595,17 @@ const Header: React.FC = () => {
             </li>
             <li>
               <Link href="#" className="sub-menu-item">
+                Trending
+              </Link>
+            </li>
+            <li>
+              <Link href="#" className="sub-menu-item">
                 Shop
               </Link>
             </li>
             <li>
               <Link href="#" className="sub-menu-item">
                 Blog
-              </Link>
-            </li>
-            <li>
-              <Link href="#" className="sub-menu-item">
-                Trending
               </Link>
             </li>
           </ul>

@@ -113,36 +113,8 @@ const Footer = () => {
                         </Link>
                       </li>
                       <li className="mt-[10px]">
-                        <Link href="/page-pricing.html" passHref>
-                          Pricing
-                        </Link>
-                      </li>
-                      <li className="mt-[10px]">
-                        <Link href="/blog.html" passHref>
-                          Blog
-                        </Link>
-                      </li>
-                      <li className="mt-[10px]">
-                        <Link href="/auth-login.html" passHref>
-                          Login
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
-
-                  <div className="lg:col-span-3 md:col-span-4">
-                    <h5 className="tracking-[1px] text-gray-100 font-semibold">
-                      Resources
-                    </h5>
-                    <ul className="list-none footer-list mt-6">
-                      <li>
                         <Link href="/page-privacy.html" passHref>
                           Privacy Policy
-                        </Link>
-                      </li>
-                      <li className="mt-[10px]">
-                        <Link href="/page-terms.html" passHref>
-                          Terms & Conditions
                         </Link>
                       </li>
                       <li className="mt-[10px]">
@@ -164,7 +136,7 @@ const Footer = () => {
                     </h5>
                     <ul className="list-none footer-list mt-6">
                       <li>
-                        <Link href="mailto:support@shreethemes.in" passHref>
+                        <Link href="mailto:support@rabalan.com" passHref>
                           support@rabalan.com
                         </Link>
                       </li>
@@ -180,6 +152,40 @@ const Footer = () => {
                       </li>
                     </ul>
                   </div>
+
+                  <div className="lg:col-span-3 md:col-span-4">
+                    <h5 className="tracking-[1px] text-gray-100 font-semibold">
+                      Newsletter
+                    </h5>
+                    <p className="mt-6">Sign up and receive the updates.</p>
+                    <form>
+                      <div className="grid grid-cols-1">
+                        <div className="my-3">
+                          <div className="form-icon relative mt-2">
+                            <i
+                              data-feather="mail"
+                              className="size-4 absolute top-3 start-4"
+                            ></i>
+                            <input
+                              type="email"
+                              className="form-input ps-12 rounded w-full py-2 px-3 h-10 bg-gray-800 border-0 text-gray-100 focus:shadow-none focus:ring-0 placeholder:text-gray-200"
+                              placeholder="Email"
+                              name="email"
+                            />
+                          </div>
+                        </div>
+
+                        <button
+                          type="submit"
+                          id="submitsubscribe"
+                          name="send"
+                          className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md"
+                        >
+                          Subscribe
+                        </button>
+                      </div>
+                    </form>
+                  </div>
                 </div>
               </div>
             </div>
@@ -187,7 +193,11 @@ const Footer = () => {
         </div>
         <div className="footer-bottom text-center py-4">
           <p className="text-gray-500">
-            &copy; {new Date().getFullYear()} Your Company. All rights reserved.
+            &copy; {new Date().getFullYear()}{" "}
+            <Link href="https://rabalana.com" passHref>
+              Rabalana
+            </Link>
+            . All rights reserved.
           </p>
         </div>
       </footer>

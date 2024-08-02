@@ -32,23 +32,6 @@ export default function RootLayout({
         <meta name="website" content="https://shreethemes.in" />
         <meta name="email" content="support@shreethemes.in" />
         <meta name="version" content="2.2.0" />
-        <link href="/assets/libs/tobii/css/tobii.min.css" rel="stylesheet" />
-        <link
-          href="/assets/libs/tiny-slider/tiny-slider.css"
-          rel="stylesheet"
-        />
-        <link href="/assets/libs/swiper/css/swiper.min.css" rel="stylesheet" />
-        <link
-          href="/assets/libs/@iconscout/unicons/css/line.css"
-          type="text/css"
-          rel="stylesheet"
-        />
-        <link
-          href="/assets/libs/@mdi/font/css/materialdesignicons.min.css"
-          rel="stylesheet"
-          type="text/css"
-        />
-        <link rel="stylesheet" href="/assets/css/tailwind.css" />
       </head>
       <body className={inter.className}>
         <Header />
