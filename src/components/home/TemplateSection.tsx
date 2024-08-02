@@ -1,6 +1,19 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const TemplatesSection = () => {
+  // Array of image URLs
+  const images = [
+    "/assets/images/templates/1.avif",
+    "/assets/images/templates/2.avif",
+    "/assets/images/templates/3.avif",
+    "/assets/images/templates/4.avif",
+    "/assets/images/templates/5.avif",
+    "/assets/images/templates/6.avif",
+    "/assets/images/templates/7.avif",
+    "/assets/images/templates/8.avif",
+  ];
+
   return (
     <section
       className="relative md:py-24 py-16 bg-gray-900 text-white dark:bg-gray-800 dark:text-gray-200"
@@ -20,20 +33,22 @@ const TemplatesSection = () => {
           </p>
         </div>
         <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-4">
-          {[1, 2, 3, 4, 5, 6, 7, 8].map((_, index) => (
+          {images.map((src, index) => (
             <div
               key={index}
               className="group relative block overflow-hidden rounded-md duration-500"
             >
-              <Image
-                src="/assets/images/templates/1.jpg"
-                className="group-hover:origin-center group-hover:scale-110 group-hover:rotate-3 duration-500"
-                width={300}
-                height={400}
-                alt={`Template ${index + 1}`}
-                layout="responsive" // Ensures image scales properly
-              />
-              <div className="absolute inset-0 group-hover:bg-black opacity-50 duration-500 z-0"></div>
+              <Link href={"#"}>
+                <Image
+                  src={src}
+                  className="group-hover:origin-center group-hover:scale-110 group-hover:rotate-3 duration-500"
+                  width={300}
+                  height={400}
+                  layout="responsive"
+                  alt={`Template ${index + 1}`}
+                />
+                <div className="absolute inset-0 group-hover:bg-black opacity-50 duration-500 z-0"></div>
+              </Link>
             </div>
           ))}
         </div>
