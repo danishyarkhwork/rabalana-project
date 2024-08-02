@@ -108,7 +108,7 @@ const Footer = () => {
                     </h5>
                     <ul className="list-none footer-list mt-6">
                       <li>
-                        <Link href="/page-aboutus.html" passHref>
+                        <Link href="/about-us" passHref>
                           About us
                         </Link>
                       </li>
@@ -191,14 +191,28 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="footer-bottom text-center py-4">
-          <p className="text-gray-500">
-            &copy; {new Date().getFullYear()}{" "}
-            <Link href="https://rabalana.com" passHref>
-              Rabalana
-            </Link>
-            . All rights reserved.
-          </p>
+
+        <div className="py-[30px] px-0 border-t border-slate-800">
+          <div className="container relative text-center">
+            <div className="grid md:grid-cols-2 items-center">
+              <div className="md:text-start text-center">
+                <p className="mb-0">
+                  © <script>document.write(new Date().getFullYear())</script>
+                  <Link
+                    href="https://rabalana.com"
+                    target="_blank"
+                    className="text-reset"
+                    passHref
+                  >
+                    Rabalana
+                  </Link>
+                  . All rights reserved.
+                </p>
+              </div>
+
+              <ul className="list-none md:text-end text-center mt-6 md:mt-0"></ul>
+            </div>
+          </div>
         </div>
       </footer>
 

@@ -41,8 +41,6 @@ export default function RootLayout({
         <Script src="/assets/js/plugins.init.js" />
         <Script src="/assets/js/app.js" />
         <Script src="/assets/libs/tobii/js/tobii.min.js" />
-        <Script src="/assets/libs/tiny-slider/min/tiny-slider.js" />
-        <Script src="/assets/libs/swiper/js/swiper.min.js" />
       </body>
     </html>
   );
